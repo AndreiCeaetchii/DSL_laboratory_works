@@ -4,7 +4,7 @@ non_terminals= ['S', 'I', 'J', 'K']
 terminals = ['a', 'b', 'c', 'e', 'n', 'f', 'm']
 rules = {
     'S': ['cI'],
-    'I': ['bJ', 'fI', 'nJ', 'e'],
+    'I': ['bJ', 'fI', 'e', 'eK'],
     'J': ['nJ', 'cS'],
     'K': ['nK', 'm']
 }
