@@ -303,9 +303,9 @@ for state, transitions in self.transitions.items():
 Finally, the function returns the `dot` object, which encapsulates the entire graph.
 
 We can see what results I obtained:
-![FA to Regular Grammar conversion](./Images/result1.png)
-![NFA graph](./Images/result3.png)
-![NFA to DFA conversion](./Images/result2.png)
+![FA to Regular Grammar conversion](./Images/Result1.png)
+![NFA graph](./Images/Result3.png)
+![NFA to DFA conversion](./Images/Result2.png)
 ![DFA graph](./Images/Result4.png)
 ## Conclusions / Results
 
