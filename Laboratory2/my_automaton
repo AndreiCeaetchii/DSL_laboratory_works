@@ -1,0 +1,19 @@
+// Finite Automaton
+digraph {
+	rankdir=LR
+	q0 [label=q0 shape=circle]
+	q1 [label=q1 shape=circle]
+	"q1,q2" [label="q1,q2" shape=circle]
+	q4 [label=q4 shape=doublecircle]
+	"q1,q2,q3" [label="q1,q2,q3" shape=circle]
+	"q1,q4" [label="q1,q4" shape=doublecircle]
+	"" [label="" shape=none]
+	"" -> q0
+	q0 -> q1 [label=a]
+	q1 -> "q1,q2" [label=b]
+	"q1,q2" -> q4 [label=a]
+	"q1,q2" -> "q1,q2,q3" [label=b]
+	"q1,q2,q3" -> "q1,q4" [label=a]
+	"q1,q2,q3" -> "q1,q2,q3" [label=b]
+	"q1,q4" -> "q1,q2" [label=b]
+}
