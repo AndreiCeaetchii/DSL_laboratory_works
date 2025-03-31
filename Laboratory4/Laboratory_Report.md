@@ -158,9 +158,8 @@ This project illustrates how regular expressions can be interpreted dynamically 
 
 ## Bibliography
 
-1. Hopcroft, J. E., Motwani, R., & Ullman, J. D. (2006). *Introduction to Automata Theory, Languages, and Computation.*
-2. Friedl, J. (2006). *Mastering Regular Expressions.* O'Reilly Media.
-3. Thompson, K. (1968). "Regular Expression Search Algorithm", *Communications of the ACM*.
-4. Sipser, M. (2012). *Introduction to the Theory of Computation.*
-5. Python Docs: [https://docs.python.org/3/library/re.html](https://docs.python.org/3/library/re.html)
-```
+1. Hopcroft, J. E., Motwani, R., & Ullman, J. D. (2006). Introduction to Automata Theory, Languages, and Computation.
+2. Friedl, J. (2006). Mastering Regular Expressions. O'Reilly Media.
+3. Thompson, K. (1968). "Programming Techniques: Regular Expression Search Algorithm". Communications of the ACM.
+4. Sipser, M. (2012). Introduction to the Theory of Computation.
+5. Python documentation on Regular Expressions: [https://docs.python.org/3/library/re.html](https://docs.python.org/3/library/re.html)
