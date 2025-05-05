@@ -205,10 +205,15 @@ In the event of an error token (`p` is `None`), the function emits a generic syn
 We can see what results I obtained:
 
 ![ast.png](images%2Fast.png)
+
 ![ast1.png](images%2Fast1.png)
+
 ![ast2.png](images%2Fast2.png)
+
 ![error1.png](images%2Ferror1.png)
+
 ![error2.png](images%2Ferror2.png)
+
 ## Conclusions / Results
 
 Through the implementation of a parser using PLY and the definition of a structured AST, I've' gained insight into how grammatical rules of a language can be transformed into a programmatically manipulable format. The construction of the AST and its subsequent visualization using Graphviz allowed to see the hierarchical nature of language constructs, facilitating a deeper comprehension of the parsing process and error handling within the chosen DSL.
